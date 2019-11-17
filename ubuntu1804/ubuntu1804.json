@@ -54,7 +54,7 @@
       ],
       "boot_wait": "10s",
       "disk_size": 81920,
-      "guest_os_type": "Ubuntu_64",
+      "guest_os_type": "Other",
       "headless": true,
       "http_directory": "http",
       "iso_urls": [
@@ -67,6 +67,7 @@
       "ssh_password": "vagrant",
       "ssh_port": 22,
       "vrdp_bind_address": "0.0.0.0",
+      "vrdp_port_max": 5910,
       "ssh_wait_timeout": "10000s",
       "shutdown_command": "echo 'vagrant'|sudo -S shutdown -P now",
       "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
